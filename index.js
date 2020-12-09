@@ -4,7 +4,7 @@
 
 /* i have to start working on this after lunch/// day 2 into javascript*/
 const originalFlavors = [
-    "Banana Nut Fudge",
+    "Banana Nut Fudge", /*this is an attempt to submit the work*/
     "Black Walnut",
     "Burgundy Cherry",
     "Butterscotch Ribbon",
