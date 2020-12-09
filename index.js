@@ -2,9 +2,8 @@
 
 /* 👀 This is your data ⬇ */
 
-/* i have to start working on this after lunch/// day 2 into javascript*/
 const originalFlavors = [
-    "Banana Nut Fudge", /*this is an attempt to submit the work*/
+    "Banana Nut Fudge", 
     "Black Walnut",
     "Burgundy Cherry",
     "Butterscotch Ribbon",
@@ -116,10 +115,11 @@ Use the getFlavorByIndex function below to do the following:
     For example: running getFlavorByIndex(originalFlavors, 2) would return "Black Walnut", assuming Rainbow Sherbert has been added successfully
 */
 
-function getFlavorByIndex(/*your code here*/){
+function getFlavorByIndex(array, index){
     /*your code here*/
+    return array[index];
 }
-
+console.log('task 5:', getFlavorByIndex(originalFlavors, 3));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 As corporate wants to add more and more flavors to their lineup, they've realized that they need to remove flavors based on flavor name, 
