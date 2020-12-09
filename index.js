@@ -2,7 +2,7 @@
 
 /* 👀 This is your data ⬇ */
 
-/* i have to start working on this after lunch*/
+/* i have to start working on this after lunch/// day 2 into javascript*/
 const originalFlavors = [
     "Banana Nut Fudge",
     "Black Walnut",
