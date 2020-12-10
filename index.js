@@ -71,14 +71,6 @@ function is31Flavors( array /*your code here*/){
         return false;
     }
  }
- 
-
-/*function is31Flavors(array  /*your code here*//*){*/
-   /*your code here*/
-  /* array.length();
-   return array;
-}
-console.log(is31Flavors(originalFlavors));*/
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Corporate has come to you with an idea for a new flavor: Rainbow Sherbert! They think this will be a game changer. You need to modify the array to include this flavor. 
@@ -154,10 +146,12 @@ Use the removeFlavorByName function below to do the following:
     HINT: You can use .splice() for this
 */
 
-function removeFlavorByName(/*your code here*/){
+function removeFlavorByName(array,string/*your code here*/){
     /*your code here*/
-    
+   array.splice(array.indexOf(string),1);
+   return array;
 }
+console.log(removeFlavorByName(originalFlavors, "Rocky Road"));
 
 
 
