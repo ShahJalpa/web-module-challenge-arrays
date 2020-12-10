@@ -62,12 +62,23 @@ Confirm that an array is exactly 31 flavors. Your function should accept:
 
 For Example: is31Flavors(originalFlavors) will return true if your code is working properly
 */
+function is31Flavors( array /*your code here*/){
+    /*your code here*/
+    if(array.length===31){
+        return true;
+    }
+    else{
+        return false;
+    }
+ }
+ 
 
-
-function is31Flavors(  /*your code here*/){
+/*function is31Flavors(array  /*your code here*//*){*/
    /*your code here*/
-   
+  /* array.length();
+   return array;
 }
+console.log(is31Flavors(originalFlavors));*/
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Corporate has come to you with an idea for a new flavor: Rainbow Sherbert! They think this will be a game changer. You need to modify the array to include this flavor. 
@@ -145,7 +156,9 @@ Use the removeFlavorByName function below to do the following:
 
 function removeFlavorByName(/*your code here*/){
     /*your code here*/
+    
 }
+
 
 
 
@@ -169,9 +182,17 @@ Use the filterByWord function below to do the following:
     DO NOT USE ADVANCED ARRAY METHODS (i.e. .filter) to solve this problem. 
 */
 
-function filterByWord(/*your code here*/){
+function filterByWord(array, string/*your code here*/){
     /*your code here*/
+    let filteredArray=[];
+    for(let i=0; i<array.length; i++){
+        if(array[i].includes(string)){
+            filteredArray.push(array[i]);
+        }
+    }
+    return filteredArray;
 }
+console.log(filterByWord(originalFlavors,"chocolate"));
 
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
